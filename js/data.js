@@ -3,26 +3,26 @@
 // =================================
 
 const cvData = {
-    // Informazioni Personali
+    // Personal Information
     personal: {
         name: "Francesco Domenico Saltarelli",
         title: "Student and Entrepreneur",
         email: "fd.saltarelli@gmail.com",
         phone: "+39 3201616715",
-        location: "Veneto, Italia",
+        location: "Veneto, Italy",
         linkedin: "fd-saltarelli",
         github: "FDSwiki",
         quote: "The best way to predict the future is to create it.",
         quoteAuthor: "Peter Drucker"
     },
 
-    // Esperienza Professionale
+    // Professional Experience
     experience: [
         {
             title: "Team Leader & Unit Coordinator | AI & Research",
             company: "Lumina Consulting Agency",
             location: "Roncade, Italy",
-            period: "2024 - Presente",
+            period: "2024 - Present",
             description: "Lead the team to achieve objectives and optimize business strategies. Introduce AI, new software, and management systems to improve company efficiency.",
             tags: ["Leadership", "AI Integration", "Business Strategy", "Process Optimization", "Team Management"]
         },
@@ -30,7 +30,7 @@ const cvData = {
             title: "Chief Technology Officer",
             company: "GrowIN - Startup",
             location: "Roncade, Italy",
-            period: "2024 - Presente",
+            period: "2024 - Present",
             description: "Lead the technological vision and strategy for app development. Propose and guide the team in implementing new features and system improvements.",
             tags: ["CTO", "App Development", "Tech Strategy", "Innovation", "SwiftUI", "Python"]
         },
@@ -44,13 +44,13 @@ const cvData = {
         }
     ],
 
-    // Formazione
+    // Education
     education: [
         {
             degree: "Digital Management",
             institution: "H-Farm College x Ca' Foscari University",
             location: "Venice, Italy",
-            period: "2024 - Presente",
+            period: "2024 - Present",
             description: "Program combining economics, management, and digital business skills. Focus on entrepreneurship and innovation.",
             icon: "🎓"
         },
@@ -64,38 +64,38 @@ const cvData = {
         }
     ],
 
-    // Competenze
+    // Skills
     skills: {
         technical: [
-            { name: "Figma", level: "Esperto", percentage: 100 },
-            { name: "Adobe Suite", level: "Esperto", percentage: 100 },
-            { name: "Office Suite", level: "Esperto", percentage: 100 },
-            { name: "Prototyping", level: "Esperto", percentage: 100 },
-            { name: "Python", level: "Avanzato", percentage: 80 },
-            { name: "SwiftUI", level: "Avanzato", percentage: 80 }
+            { name: "Figma", level: "Expert", percentage: 100 },
+            { name: "Adobe Suite", level: "Expert", percentage: 100 },
+            { name: "Office Suite", level: "Expert", percentage: 100 },
+            { name: "Prototyping", level: "Expert", percentage: 100 },
+            { name: "Python", level: "Advanced", percentage: 80 },
+            { name: "SwiftUI", level: "Advanced", percentage: 80 }
         ],
         soft: [
-            { name: "Design Thinking", level: "Avanzato", percentage: 85 },
-            { name: "User Research", level: "Avanzato", percentage: 80 },
-            { name: "Leadership", level: "Avanzato", percentage: 85 },
-            { name: "Problem Solving", level: "Avanzato", percentage: 90 },
-            { name: "Communication", level: "Avanzato", percentage: 85 },
-            { name: "Agile Methodology", level: "Avanzato", percentage: 80 }
+            { name: "Design Thinking", level: "Advanced", percentage: 85 },
+            { name: "User Research", level: "Advanced", percentage: 80 },
+            { name: "Leadership", level: "Advanced", percentage: 85 },
+            { name: "Problem Solving", level: "Advanced", percentage: 90 },
+            { name: "Communication", level: "Advanced", percentage: 85 },
+            { name: "Agile Methodology", level: "Advanced", percentage: 80 }
         ],
         languages: [
-            { name: "Italian", level: "Madrelingua", percentage: 100 },
+            { name: "Italian", level: "Native", percentage: 100 },
             { name: "English", level: "Fluent (C2)", percentage: 80 },
             { name: "Spanish", level: "Intermediate (B1)", percentage: 60 }
         ]
     },
 
-    // Progetti
+    // Projects
     projects: [
         {
             title: "Diary Ally",
             description: "AI-powered journaling iOS app with audio recording, automatic transcription, emotion tracking, and intelligent chat features.",
             image: "assets/projects/diary-ally.jpg",
-            status: "In Sviluppo",
+            status: "In Development",
             technologies: ["SwiftUI", "SwiftData", "AI Integration", "AVFoundation"],
             links: []
         },
@@ -103,7 +103,7 @@ const cvData = {
             title: "GrowIN App",
             description: "Mobile application for personal and professional growth. As CTO, I lead the technological strategy and development.",
             image: "assets/projects/growin.jpg",
-            status: "In Sviluppo",
+            status: "In Development",
             technologies: ["SwiftUI", "Python", "AI Integration", "UX/UI Design", "Figma"],
             links: [
                 { type: "website", url: "https://grow-in.pro/" }
@@ -113,13 +113,13 @@ const cvData = {
             title: "Event Management - Emerals",
             description: "Large-scale event organization for European GTA RP community. Managed partnerships with major brands like Universal Music.",
             image: "assets/projects/emerals.jpg",
-            status: "Completato",
+            status: "Completed",
             technologies: ["Event Management", "Partnership", "Community Engagement"],
             links: []
         }
     ],
 
-    // Certificazioni
+    // Certifications
     certifications: [
         {
             name: "Generative AI",

@@ -1,40 +1,40 @@
 # Assets Folder
 
-Questa cartella contiene le risorse grafiche del sito.
+This folder contains the graphic resources for the website.
 
-## Immagine Profilo
+## Profile Image
 
-Per aggiungere la tua foto profilo:
+To add your profile photo:
 
-1. Rinomina la tua foto in `profile.jpg` (o `profile.png`)
-2. Posizionala in questa cartella
-3. L'immagine verrà automaticamente caricata nell'header del sito
+1. Rename your photo to `profile.jpg` (or `profile.png`)
+2. Place it in this folder
+3. The image will be automatically loaded in the site header
 
-### Raccomandazioni:
-- **Formato**: JPG o PNG
-- **Dimensioni consigliate**: 500x500px (quadrata)
-- **Peso**: Max 500KB per ottimizzare i tempi di caricamento
-- **Qualità**: Alta risoluzione, ben illuminata, sfondo professionale
+### Recommendations:
+- **Format**: JPG or PNG
+- **Recommended size**: 500x500px (square)
+- **File size**: Max 500KB to optimize loading times
+- **Quality**: High resolution, well-lit, professional background
 
-Se non viene trovata un'immagine, verrà automaticamente generato un placeholder con le tue iniziali.
+If no image is found, a placeholder with your initials will be automatically generated.
 
-## Altre Risorse
+## Other Resources
 
-Puoi aggiungere qui:
+You can add here:
 - Favicon (`favicon.ico`)
 - Logo (`logo.png`)
-- Screenshot di progetti
-- Certificazioni o badge
+- Project screenshots
+- Certifications or badges
 
-## Struttura Consigliata
+## Recommended Structure
 
 ```
 assets/
-├── profile.jpg          # Foto profilo principale
-├── favicon.ico          # Favicon del sito
-├── projects/            # Screenshot dei progetti
+├── profile.jpg          # Main profile photo
+├── favicon.ico          # Site favicon
+├── projects/            # Project screenshots
 │   ├── project1.jpg
 │   └── project2.jpg
-└── certificates/        # Certificazioni
+└── certificates/        # Certifications
     └── cert1.pdf
 ```
