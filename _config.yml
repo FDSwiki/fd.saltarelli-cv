@@ -1,0 +1,17 @@
+# GitHub Pages Configuration
+# Questo file dice a Jekyll (motore di GitHub Pages) di non processare il sito
+# perché è già un sito statico completo
+
+# Include files that start with underscore
+include:
+  - _headers
+  - _redirects
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
+  - .git/
+  - .vscode/
+  - .idea/
+  - "*.log"
