@@ -47,8 +47,8 @@ Questo progetto è creato per uso personale. Sentiti libero di usarlo come templ
 ## 👨‍💻 Autore
 
 **Francesco Domenico Saltarelli**
-- Email: fdsaltarelli@gmail.com
-- LinkedIn: [francesco-saltarelli](https://linkedin.com/in/francesco-saltarelli)
+- Email: fd.saltarelli@gmail.com
+- LinkedIn: [fd-saltarelli](https://linkedin.com/in/fd-saltarelli)
 - GitHub: [@FDSwiki](https://github.com/FDSwiki)
 
 ---
